@@ -1,12 +1,14 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background: url(images/bg.jpg) no-repeat center;
+  background-size: cover;
+
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
+  color: #000000;
+  font-family: sans-serif;
   text-shadow: 3px 0 #DA0463;
 
 }
@@ -46,6 +48,8 @@ footer {
 
 .set {
   margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .game-over {
@@ -64,17 +68,19 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: none;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
   color: #DA0463;
   text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
   text-align: center;
   margin: 10px;
   background-color: white;
